@@ -1,0 +1,14 @@
+/*
+ * Copyright Notice for Software Code (Cognizant Proprietary/owned)
+ *
+ * © Cognizant Technology Solutions 2015
+ * All rights reserved.
+ *
+ * Except for open source or proprietary third party software components embedded in this Cognizant proprietary software program ("Program"),
+ * this Program is protected by copyright laws, international treaties and other pending or existing intellectual property rights and statutes in India,
+ * the United States and other countries. Except as expressly permitted by Cognizant and its third party licensors, the Program may neither be used, reproduced,
+ * transmitted, distributed or modified, either in whole nor in part, in any manner or form whatsoever (including without limitation electronic,
+ * mechanical, printing, photocopying, recording or otherwise), without the prior, express, written consent and acknowledgment of Cognizant Technology Solutions.
+ * Any violation may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law
+ */
+#canvasElement{min-width:100%}#canvasContainer{height:100%;position:fixed;top:0px;left:0px;z-index:3000}#canvasControls{text-align:center}#canvasControls li{display:inline}#canvasSidebarHeader{width:165px;background-color:white}#canvasSidebar{width:165px;height:100%;border:5px solid white;left:0px;background-color:white;overflow:scroll;overflow-x:hidden;text-align:center}#canvasSidebar img{width:140px;padding:10px;border:1px solid black}#canvasScreenShot{background-color:transparent;background-image:url(camera.png);width:48px;height:48px;border:0px}#canvasScreenClear{background-color:transparent;background-image:url(refresh.png);width:48px;height:48px;border:0px}#canvasScreenClose{background-color:transparent;background-image:url(close.png);width:48px;height:48px;border:0px}.div-img-popup{padding-bottom:10px}.div-img-popup,.open-img-popup{position:relative;z-index:100}.close-img-popup{position:absolute;right:10px;font-size:20px;color:red;z-index:111}

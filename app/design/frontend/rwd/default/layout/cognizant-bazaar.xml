@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright Notice for Software Code (Cognizant Proprietary/owned)
+ *
+ * Â© Cognizant Technology Solutions 2015
+ * All rights reserved.
+ *
+ * Except for open source or proprietary third party software components embedded in this Cognizant proprietary software program ("Program"),
+ * this Program is protected by copyright laws, international treaties and other pending or existing intellectual property rights and statutes in India,
+ * the United States and other countries. Except as expressly permitted by Cognizant and its third party licensors, the Program may neither be used, reproduced,
+ * transmitted, distributed or modified, either in whole nor in part, in any manner or form whatsoever (including without limitation electronic,
+ * mechanical, printing, photocopying, recording or otherwise), without the prior, express, written consent and acknowledgment of Cognizant Technology Solutions.
+ * Any violation may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law
+*/ 
+-->
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>js_css</type><name>prototype/windows/themes/default.css</name></action>
+    	    <action method="addItem"><type>js_css</type><name>cognizant/lightbox/lightbox.css</name></action>
+            <action method="addItem"><type>js_css</type><name>cognizant/BazaAR.css</name></action>
+            <action method="addJs"><script>prototype/window.js</script></action>
+            <action method="addJs"><script>cognizant/lightbox/lightbox.js</script></action>
+            <action method="addJs"><script>cognizant/ccv/ccv.js</script></action>
+    	    <action method="addJs"><script>cognizant/ccv/face.js</script></action>
+            <!-- <action method="addJs"><script>cognizant/BazaAR.js</script></action> -->
+        </reference>
+    </default> 
+    <catalog_product_view>
+        <reference name="product.info.extrahint">
+            <block type="catalog/product_view" name="bazaar.setting" template="cognizant_bazaar/settings.phtml" />
+        </reference>
+    </catalog_product_view>
+</layout>

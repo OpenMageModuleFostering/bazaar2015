@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+    <name>BazaAR2015</name>
+    <version>1.0.0.0</version>
+    <stability>stable</stability>
+    <license uri="https://s3.amazonaws.com/bazaar-docs/EULA.pdf">End-User License Agreement</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>An Augmented Reality Platform for Apparel and Eyewear Trial</summary>
+    <description>&lt;h3&gt;An Augmented Reality Platform for Apparel and Eyewear Trial&lt;/h3&gt;&#xD;
+&#xD;
+&lt;h3&gt;Watch Live Demo : &lt;a href="http://23.21.77.11/magento/men/shirts/cotton-shirt-awesome-blue-l.html"&gt;Apparel&lt;/a&gt; &amp;amp; &lt;a href="http://23.21.77.11/magento/accessories/eyewear/ray-ban-rb3025-black.html"&gt;Eyewear&lt;/a&gt;&lt;/h3&gt;&#xD;
+&#xD;
+Ever wanted to try out clothes and sunglasses before purchasing them online! Now you can, try BazaAR - a product from Cognizant Technology Solutions. BazaAR uses Augmented Reality (AR) to position apparel and eyewears on live camera feed. &lt;b&gt;Free version&lt;/b&gt; of BazaAR supports upper body garment and eyewear trials. &lt;br /&gt;&lt;br /&gt;&#xD;
+&#xD;
+Business users who wish to integrate the BazaAR extension with their Magento based e-stores can visit&#xD;
+Magento Marketplace and download the BazaAR extension. Subject to the business owner&#x2019;s satisfaction, we also provide &lt;b&gt;Premium version&lt;/b&gt; of the extension with additional features and tighter Magento integration. &lt;br /&gt;&lt;br /&gt;&#xD;
+&#xD;
+To integrate BazaAR into your e-Store : &lt;br&gt;&#xD;
+&amp;nbsp;&amp;nbsp;1) Install the extension &lt;br&gt;&#xD;
+&amp;nbsp;&amp;nbsp;2) &lt;a href="http://54.225.201.242"&gt;Register with BazaAR API&lt;/a&gt; &lt;br&gt;&#xD;
+&amp;nbsp;&amp;nbsp;3) Admin side configuration, as explained in &lt;a href="http://54.225.201.242/bazaAR.pdf"&gt;Documentation&lt;/a&gt;.</description>
+    <notes>First preview realease</notes>
+    <authors><author><name>Cognizant</name><user>UXLabs</user><email>BazaARSupport2@cognizant.com</email></author></authors>
+    <date>2015-09-24</date>
+    <time>13:07:02</time>
+    <contents><target name="magecommunity"><dir name="Cognizant"><dir name="Bazaar"><dir name="etc"><file name="config.xml" hash="b3b8fce4eb549483d6d405185234cc70"/><file name="system.xml" hash="e09d1c2495dbd400fb9d7fb09db0ca1d"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Cognizant_Bazaar.xml" hash="c5c1c877002bb9f3615834988bff04e2"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="rwd"><dir name="default"><dir name="layout"><file name="cognizant-bazaar.xml" hash="df3cd322fad866e48fba0dd22dcdc7be"/></dir><dir name="template"><dir name="cognizant_bazaar"><file name="settings.phtml" hash="76c0d44eb9b11fe675f854f41848bd5c"/></dir></dir></dir></dir></dir></target><target name="mageweb"><dir name="js"><dir name="cognizant"><file name="BazaAR.css" hash="971c2c0d9e372d4e158bb1f0909dd2f3"/><file name="camera.png" hash="6f5ba575b53599be83826d80a6b7c760"/><dir name="ccv"><file name="COPYING.txt" hash="5f2c1ae89388a19c7f11f179b3bf414a"/><file name="ccv.js" hash="1212c159129543b732cb58ead4b05a02"/><file name="face.js" hash="b2841de8d2127a4f2e1b9e3dbdc2adba"/></dir><file name="close.png" hash="2faf298b506147c1ba0113dcdfe29f4e"/><dir name="lightbox"><file name="LICENSE.txt" hash="79ed319d3d9d030a0ed1ca5ecadebef7"/><file name="close.png" hash="d9d2d0b1308cb694aa8116915592e2a9"/><file name="lightbox.css" hash="0d845cbf28ef7678e3a40068de15243e"/><file name="lightbox.js" hash="3eaf9ccae228f2abd79f38155dc4d4a1"/><file name="loading.gif" hash="2299ad0b3f63413f026dfec20c205b8f"/><file name="next.png" hash="31f15875975aab69085470aabbfec802"/><file name="prev.png" hash="84b76dee6b27b795e89e3649078a11c2"/></dir><file name="refresh.png" hash="b05f892be9d7b488c350a5f1b39538b0"/><file name="silhoutte.png" hash="929116b855f12bb424859fd64130eb5e"/></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

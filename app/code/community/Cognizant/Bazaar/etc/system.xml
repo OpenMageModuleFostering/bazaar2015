@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * Copyright Notice for Software Code (Cognizant Proprietary/owned)
+ *
+ * Â© Cognizant Technology Solutions 2015
+ * All rights reserved.
+ *
+ * Except for open source or proprietary third party software components embedded in this Cognizant proprietary software program ("Program"),
+ * this Program is protected by copyright laws, international treaties and other pending or existing intellectual property rights and statutes in India,
+ * the United States and other countries. Except as expressly permitted by Cognizant and its third party licensors, the Program may neither be used, reproduced,
+ * transmitted, distributed or modified, either in whole nor in part, in any manner or form whatsoever (including without limitation electronic,
+ * mechanical, printing, photocopying, recording or otherwise), without the prior, express, written consent and acknowledgment of Cognizant Technology Solutions.
+ * Any violation may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law
+*/ 
+-->
+<config>
+    <tabs>
+        <myconf translate="label">
+            <label>BazaAR</label>
+            <sort_order>150</sort_order>
+        </myconf>
+    </tabs>
+    <sections>
+        <api translate="label" module="adminhtml">
+            <label>API</label>
+            <tab>myconf</tab>
+            <sort_order>10</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <general translate="label comment">
+                    <label>BazaAR API</label>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <comment></comment>
+                    <fields>
+                        <api_key translate="label comment">
+                            <label>API Key</label>
+                            <comment>Provide your API key here.</comment>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </api_key>
+                    </fields>
+                </general>
+            </groups>
+        </api>
+    </sections>
+</config>
