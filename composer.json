@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/BazaAR2015",
+    "name": "OpenMageModuleFostering\/BazaAR2015",
     "type": "magento-module",
     "license": "End-User-License-Agreement",
     "homepage": "",
     "description": "An Augmented Reality Platform for Apparel and Eyewear Trial",
     "authors": [
-    {
-        "name": "Cognizant",
-        "email": "BazaARSupport2@cognizant.com"
-    }
-],
+        {
+            "name": "Cognizant",
+            "email": "BazaARSupport2@cognizant.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
